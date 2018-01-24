@@ -1,0 +1,97 @@
+html {
+  width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+.logo img {
+  width: 5%;
+  height: 5%;
+  padding-left: 24px;
+}
+.colmar-logo {
+  font-size: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.academy-logo {
+  font-size: 32px;
+  font-weight: lighter;
+  font-family: 'Quicksand', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+.navigation {
+  font-size: 19px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+
+}
+.navigation:hover {
+  background-color: red;
+  color: red;
+}
+a {
+  justify-content: space-between;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.maincontainer {
+  display: flex;
+  background-color: lightgray;
+}
+.maincontainer img {
+  width: 60%;
+  padding: 32px 24px;
+
+}
+.container .learn {
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  font-size: 75px;
+}
+.learn {
+  margin-top: 225px;
+}
+p {
+  margin-bottom: 30px;
+  font-size: 37px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+.start-button {
+  background-color: white;
+  color: black;
+  height: 40px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+.twocontainer {
+  display: flex;
+  background-color: hsl(0, 0, 95);
+}
+.twocontainer img {
+  padding: 32px 24px;
+  width: 60%;
+}
+.h1 {
+  width: 30%;
+  display: flex;
+  text-align: left;
+}
