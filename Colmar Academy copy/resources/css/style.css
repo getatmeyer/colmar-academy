@@ -102,8 +102,8 @@ h1 {
 }
 .subp {
   width: 55%;
-border: solid 1px black;
-margin-top: 24px;
+  border: solid 1px black;
+  margin-top: 24px;
 }
 .rightcontainer {
   padding: 16px 16px;
@@ -112,12 +112,20 @@ margin-top: 24px;
   border: solid 1px black;
 }
 .rightcontainer img {
-  float: right;
+  flex-direction: column;
   height: auto;
   display: flex;
   margin: auto;
 }
 .images-box {
+  display: flex;
+  flex-direction: column;
   width: 35%;
   height: auto;
+
+}
+.section-two {
+  display: flex;
+  flex-direction: row;
+
 }
